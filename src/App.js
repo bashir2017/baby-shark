@@ -9,7 +9,7 @@ import BabyShark from "./components/BabyShark";
 const Song = require("./audio/baby.mp3");
 function App() {
   return (
-    <div className="App party-time">
+    <div className="App party-time" onClick={Song.PLAYING}>
       <Sound url={Song} playStatus={Sound.status.PLAYING} loop={true} />
       <NavBar />
       <BabyShark />
