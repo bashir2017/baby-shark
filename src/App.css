@@ -2,6 +2,16 @@
   text-align: center;
 }
 
+img {
+  max-width: 500px;
+  max-height: 500px;
+  background-color: yellow;
+}
+/* 
+div {
+  max-width: 200px;
+} */
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -36,3 +46,66 @@
     transform: rotate(360deg);
   }
 }
+
+div {
+  background-color: yellow;
+  text-align: center;
+}
+
+/*  */
+/* 
+.party-time img,
+.party-time button {
+  animation: spin 2s linear 0s infinite;
+}
+
+.party-time p,
+.party-time h2,
+.party-time h3,
+.party-time h4 {
+  animation: spin 3s linear 4s infinite;
+}
+
+.party-time main {
+  animation: colorchange 17s linear 4s infinite alternate;
+}
+
+.party-time div {
+  animation: colorchange 17s linear 8s infinite alternate;
+}
+
+.party-time aside {
+  animation: colorchange 17s linear 12s infinite alternate;
+}
+
+@keyframes spin {
+  0% {
+    transform: scale(0.75) rotate(0deg);
+  }
+
+  70% {
+    transform: scale(1);
+  }
+
+  100% {
+    transform: scale(0.75) rotate(360deg);
+  }
+}
+
+@keyframes colorchange {
+  0% {
+    background: red;
+  }
+
+  33% {
+    background: green;
+  }
+
+  66% {
+    background: blue;
+  }
+
+  100% {
+    background: red;
+  }
+} */
