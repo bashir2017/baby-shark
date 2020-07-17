@@ -53,7 +53,7 @@ div {
 }
 
 /*  */
-/* 
+
 .party-time img,
 .party-time button {
   animation: spin 2s linear 0s infinite;
@@ -108,4 +108,4 @@ div {
   100% {
     background: red;
   }
-} */
+}

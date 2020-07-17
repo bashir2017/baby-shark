@@ -10,7 +10,7 @@ import BabyShark from "./components/BabyShark";
 
 function App() {
   return (
-    <div>
+    <div className='party-time'>
       <NavBar />
       <BabyShark />
       <Footer />
