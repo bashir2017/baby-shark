@@ -6,10 +6,17 @@
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
+    "animate.css": "^4.1.0",
+    "gulp": "^4.0.2",
+    "install": "^0.13.0",
+    "node-sass": "^4.14.1",
     "react": "^16.13.1",
+    "react-animated-css": "^1.2.1",
     "react-dom": "^16.13.1",
     "react-scripts": "3.4.1",
-    "react-sound": "^1.2.0"
+    "react-sound": "^1.2.0",
+    "semantic-ui-css": "^2.2.11"
+
   },
   "scripts": {
     "start": "react-scripts start",
